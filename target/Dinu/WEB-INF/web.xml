@@ -13,6 +13,9 @@
     <servlet-name>login</servlet-name>
     <url-pattern>/LoginServlet</url-pattern>
   </servlet-mapping>
+  <listener>
+    <listener-class>java.MyServletContextListener</listener-class>
+  </listener>
 
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
